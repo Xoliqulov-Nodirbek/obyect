@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a0a0a0;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ------ Card__one ------- */
+
+.car__one{
+    width: 25%;
+    background-color: rgb(73, 73, 73);
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 400px;
+}
+
+.car__one-img{
+    width: 100%;
+}
+
+.car__one-name{
+    position: relative;
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.car__one-name::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: rgb(218, 74, 7);
+    left: 35.5%;
+    bottom: -5px;
+}
+
+.car__one-color{
+    position: relative;
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.car__one-year{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.car__one-address{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: rgb(231, 161, 8);
+}
+
+/* ------ Card__two ------- */
+
+.car__two{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(73, 73, 73);
+    height: 400px;
+}
+
+.car__two-img{
+    width: 100%;
+    margin: 40px 0 50px 0;
+}
+
+.car__two-name{
+    position: relative;
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.car__two-name::after{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 2px;
+    background-color: rgb(218, 74, 7);
+    left: 31%;
+    bottom: -5px;
+}
+
+.car__two-color{
+    position: relative;
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.car__two-year{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.car__two-address{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: rgb(231, 161, 8);
+}
+
+/* ------ Card __three -------- */
+
+.car__three{
+    width: 25%;
+    background-color: rgb(73, 73, 73);
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 400px;
+}
+
+.car__three-img{
+    width: 100%;
+    margin: 70px 0 50px 0;
+}
+
+.car__three-name{
+    position: relative;
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.car__three-name::after{
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background-color: rgb(218, 74, 7);
+    left: 37.5%;
+    bottom: -5px;
+}
+
+.car__three-color{
+    position: relative;
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.car__three-year{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.car__three-address{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: rgb(231, 161, 8);
+}
